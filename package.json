@@ -1,18 +1,91 @@
 {
-  "name": "@utilcode/simple-template-advanced",
+  "name": "@supernpm2024/maiores-magni-harum-dolores",
+  "description": "shockpkg core",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "shockpkg",
+    "package",
+    "manager",
+    "flash",
+    "shockwave",
+    "player",
+    "air",
+    "sdk"
+  ],
+  "main": "cjs/index",
+  "exports": {
+    ".": [
+      {
+        "types": "./dts/index.d.ts",
+        "import": "./esm/index.mjs",
+        "require": "./cjs/index.js",
+        "default": "./cjs/index.js"
+      },
+      "./cjs/index.js"
+    ]
   },
-  "author": "",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/utilcode/simple-template.git"
+  "types": "dts/index.d.ts",
+  "module": "esm/index.mjs",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18.12.0"
+  },
+  "author": "ellentea",
+  "copyright": "Copyright (c) 2018-2024 JrMasterModelBuilder",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-typescript": "^7.23.3",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "babel-plugin-esm-resolver": "^2.3.2",
+    "babel-plugin-search-and-replace": "^1.1.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsdoc": "^48.1.0",
+    "express": "^4.18.2",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "source-map-support": "^0.5.21",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
-    "axios": "^1.6.8"
-  }
+    "@supernpm2024/at-quidem-repellat-iusto": "^1.0.0",
+    "@supernpm2024/commodi-odit-eius-nostrum": "^1.0.0",
+    "@supernpm2024/cupiditate-sed-aliquam-quae": "^1.0.0",
+    "@supernpm2024/dignissimos-accusamus-libero-cumque": "^1.0.0",
+    "@supernpm2024/dolor-distinctio-nisi-cupiditate": "^1.0.0",
+    "@supernpm2024/fugiat-natus-quia-vitae": "^1.0.0",
+    "@supernpm2024/in-illo-perferendis-temporibus": "^1.0.0",
+    "@supernpm2024/labore-repudiandae-dolorem-in": "^1.0.0",
+    "@supernpm2024/laboriosam-ipsam-assumenda-maiores": "^1.0.0",
+    "@supernpm2024/laudantium-delectus-ipsam-sit": "^1.0.0",
+    "@supernpm2024/legendary-broccoli": "^1.0.0",
+    "@supernpm2024/modi-consequuntur-mollitia-nesciunt": "^1.0.0",
+    "@supernpm2024/modi-quod-recusandae-placeat": "^1.0.0",
+    "@supernpm2024/molestiae-vitae-labore-voluptatibus": "^1.0.0",
+    "@supernpm2024/officia-eum-pariatur-temporibus": "^1.0.0",
+    "@supernpm2024/praesentium-ipsa-odio-ullam": "^1.0.0",
+    "@supernpm2024/quis-ab-laboriosam-veniam": "^1.0.0",
+    "@supernpm2024/similique-occaecati-laborum-saepe": "^1.0.0",
+    "@supernpm2024/sunt-blanditiis-totam-eos": "^1.0.0",
+    "@supernpm2024/tenetur-tempore-ex-illo": "^1.0.0",
+    "@supernpm2024/unde-delectus-corporis-commodi": "^1.0.0",
+    "@supernpm2024/voluptate-eos-animi-nobis": "^1.0.0",
+    "@supernpm2024/voluptatem-eius-officia-voluptatem": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supernpm2024/maiores-magni-harum-dolores.git"
+  },
+  "homepage": "https://github.com/supernpm2024/maiores-magni-harum-dolores/#readme",
+  "bugs": {
+    "url": "https://github.com/supernpm2024/maiores-magni-harum-dolores/issues"
+  },
+  "packageManager": "yarn@4.1.1"
 }
